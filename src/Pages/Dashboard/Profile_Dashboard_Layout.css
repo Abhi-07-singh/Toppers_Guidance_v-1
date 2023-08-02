@@ -1,0 +1,12 @@
+.dashboard_page_layout{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2,6rem);
+}
+.dashboard_home_page_topper{
+    display: grid;
+    grid-template-columns: 2fr 8fr 40px;
+}
+.outlet_section{
+    margin-left: 30px;
+}

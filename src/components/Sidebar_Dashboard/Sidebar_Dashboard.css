@@ -1,0 +1,39 @@
+.navbar{
+    /* margin-top: 15vh; */
+    /* z-index: -1; */
+    position: fixed;
+    top: 11vh;
+}
+.Link_tag_react_router{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.Link_tag_react_router:hover{
+    color: blue;
+    font-size: 15px;
+    transition: 300ms;
+}
+.Link_tag_react_router.active{
+    color: blue;
+}
+.sidebar_menu{
+    height: 89vh;
+
+    overflow-y: auto;
+
+}
+.icon_img{
+    width: 25px;
+}
+.free_tag{
+    color: red;
+    font-size: 13px;
+    
+
+}
+.paid_tag{
+    color: red;
+    font-size: 13px;
+    
+}

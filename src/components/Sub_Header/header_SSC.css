@@ -1,0 +1,29 @@
+
+.subHeader_exam{
+    
+    height: 25vh;
+    background-color: black;
+    /* margin-top:-22px ; */
+    display: flex;
+    margin-top: 10vh;
+    width: 100%;
+    
+}
+.subHeader_text{
+    color: #ffffff;
+    font-size: 13px;
+    margin-left: 150px;
+    margin-top: 25px;
+
+}
+.subHeader_text h1{
+    margin-bottom: -15px;
+}
+.subHeader_text p{
+    margin-left: 150px;
+}
+.subHeader_img_icon{
+    width: 140px;
+    margin-left: 550px;
+    margin-top: 20px;
+}

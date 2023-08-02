@@ -1,0 +1,13 @@
+.OTP_verification_main_div{
+    width: 30vw;
+    height: 30vh;
+    background-color:white;
+    z-index: 1;
+    box-shadow: 5px 10px 8px #888888;
+    margin: 150px 50px;
+    
+    
+}
+.input_otp_section{
+    margin: 30px;
+}

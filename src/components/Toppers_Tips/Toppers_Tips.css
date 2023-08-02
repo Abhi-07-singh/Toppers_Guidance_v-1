@@ -1,0 +1,70 @@
+
+.toppers_tips_header{
+    
+    margin-top: 110px;
+}
+.toppers_tips_header h2{
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 0.8px;
+    word-spacing: 1.8px;
+}
+.tips_card{
+    margin-left: 250px;
+    display: grid;
+    /* grid-template-rows: repeat(2,1fr); */
+    grid-template-columns: repeat(3,1fr);
+}
+.upper_card{
+    
+    width: 250px;
+    height: 160px;
+    border: 0.1px solid rgb(119, 118, 118);
+    text-align: center;
+    padding: 10px;
+}
+.upper_card p{
+    margin: -3px 0px;
+    font-size: 13px;
+    font-weight: 100;
+}
+.lower_card{
+    width: 250px;
+    height: 180px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 0.1px solid rgb(119, 118, 118);
+    border-top: none;
+}
+.tips_topic{
+    margin-top: -15px;
+    margin-left: 5px;
+}
+.break{
+    margin-top: -40px;
+}
+.lorem_ipsum_tips{
+    margin-top: -15px;
+    margin-left: 3px;
+    font-size: 13px;
+    font-weight: 100;
+}
+.read_more_btn button{
+    margin-left: 155px;
+    
+}
+.view_more_btn_tips{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 710px;
+    padding: 4px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+

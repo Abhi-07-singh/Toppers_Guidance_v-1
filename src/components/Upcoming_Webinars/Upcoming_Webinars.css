@@ -1,0 +1,75 @@
+.webinar_card{
+    display: grid;
+    /* grid-template-rows: repeat(2,1fr); */
+    grid-template-columns: repeat(4,260px); 
+    margin-left: 250px;
+    height: 250px; 
+    
+   
+
+   
+}
+.webinar_heading h2{
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 0.8px;
+    word-spacing: 1.8px;
+}
+
+.card_boundary{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    padding-top: 0px;
+    height: 220px;
+    
+}
+
+ .heading .break{
+    margin-top: -33px;
+    margin-bottom: 10px;
+    
+    
+}
+.heading{
+    font-size: 11px;
+    
+}
+.heading h3{
+    font-weight: 200;
+}
+.webinar_img{
+    width: 150px;
+    margin-left: 14px;
+}
+.webinar_holder_name{
+    font-size: 11px;
+    font-weight: 100;
+    margin-top: -7px;
+}
+.time{
+    font-size: 11px;
+    font-weight: 100;
+    margin-top: -12px;
+}
+
+.regs_btn{
+    padding: 2px 40px;
+    margin-left: 8px;
+    background-color: #03AAFF;
+    color: white;
+    border: none;
+    
+}
+.more_webinar{
+    margin-left: 1075px;
+    width: 35px;
+}
+.more_button{
+    margin-top: -140px;
+}

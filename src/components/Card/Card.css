@@ -1,0 +1,43 @@
+
+.card{
+    width: 150px;
+    height: 220px;
+    border: 0.1px solid rgb(119, 118, 118);
+    margin-left: 50px;
+}
+
+.details{
+    text-align: center;
+    margin-left: 5px;
+    margin-top: -25px;
+    margin-bottom: 25px;
+    font-size: 12px;
+    font-weight: 100;
+
+}
+.details h3{
+    font-weight: 100;
+}
+.dp{
+    width: 100px;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.fb-details{
+    text-align: start;
+    margin-left: 2px;
+    
+}
+.open-button{
+    margin-top: -20px;
+    margin-left: 25px;
+    
+}
+.open-button button {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 3px 14px;
+}

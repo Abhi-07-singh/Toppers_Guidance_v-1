@@ -1,0 +1,177 @@
+[
+    {
+        "id" : 1,
+        "exam" : "SSC",
+        "to" : "/ssc"
+    },
+    {
+        "id" : 2,
+        "exam" : "BANKING",
+        "to" : "/banking"
+    },
+    {
+        "id" : 3,
+        "exam" : "RAILWAY",
+        "to" : "/railway"
+    },
+    {
+        "id" : 4,
+        "exam" : "UPSC",
+        "to" : "/upsc"
+    },
+    {
+        "id" : 5,
+        "exam" : "IIT JEE",
+        "to" : "/iit_jee"
+    },
+    {
+        "id" : 6,
+        "exam" : "NIELET",
+        "to" : "/nielet"
+    },
+    {
+        "id" : 7,
+        "exam" : "NDA",
+        "to" : "/nda"
+    },
+    {
+        "id" : 8,
+        "exam" : "CTET",
+        "to" : "/ctet"
+    },
+    {
+        "id" : 9,
+        "exam" : "ISRO",
+        "to" : "/isro"
+    },
+    {
+        "id" : 10,
+        "exam" : "NEET",
+        "to" : "/neet"
+    },
+    {
+        "id" : 11,
+        "exam" : "UPSC",
+        "to" : "/upsc"
+    },
+    {
+        "id" : 12,
+        "exam" : "IIT JEE",
+        "to" : "/iitjee"
+    },
+    {
+        "id" : 13,
+        "exam" : "NIELET",
+        "to" : "/nielet"
+    },
+    {
+        "id" : 14,
+        "exam" : "NDA",
+        "to" : "/nda"
+    },
+    {
+        "id" : 15,
+        "exam" : "CTET",
+        "to" : "/ctet"
+    },
+    {
+        "id" : 16,
+        "exam" : "UPSC",
+        "to" : "/upsc"
+    },
+    {
+        "id" : 17,
+        "exam" : "IIT JEE",
+        "to" : "/iit_jee"
+    },
+    {
+        "id" : 18,
+        "exam" : "NIELET",
+        "to" : "/nielet"
+    },
+    {
+        "id" : 19,
+        "exam" : "NDA",
+        "to" : "/nda"
+    },
+    {
+        "id" : 20,
+        "exam" : "CTET",
+        "to" : "/ctet"
+    }, {
+        "id" : 21,
+        "exam" : "SSC",
+        "to" : "/ssc"
+    },
+    {
+        "id" : 22,
+        "exam" : "BANKING",
+        "to" : "/banking"
+    },
+    {
+        "id" : 23,
+        "exam" : "RAILWAY",
+        "to" : "/railway"
+    },
+    {
+        "id" : 24,
+        "exam" : "NIELET",
+        "to" : "/nielet"
+    },
+    {
+        "id" : 25,
+        "exam" : "NDA",
+        "to" : "/nda"
+    },
+    {
+        "id" : 26,
+        "exam" : "CTET",
+        "to" : "/ctet"
+    }, {
+        "id" : 27,
+        "exam" : "SSC",
+        "to" : "/ssc"
+    },
+    {
+        "id" : 28,
+        "exam" : "BANKING",
+        "to" : "/banking"
+    },
+    {
+        "id" : 29,
+        "exam" : "RAILWAY",
+        "to" : "/railway"
+    },
+    {
+        "id" : 30,
+        "exam" : "UPSC",
+        "to" : "/upsc"
+    },
+    {
+        "id" : 31,
+        "exam" : "IIT JEE",
+        "to" : "/iit_jee"
+    },
+    {
+        "id" : 32,
+        "exam" : "NIELET",
+        "to" : "/nielet"
+    },
+    {
+        "id" : 33,
+        "exam" : "NDA",
+        "to" : "/nda"
+    },
+    {
+        "id" : 34,
+        "exam" : "CTET",
+        "to" : "/ctet"
+    },
+    {
+        "id" : 35,
+        "exam" : "NIELET",
+        "to" : "/nielet"
+    }
+    
+   
+]
