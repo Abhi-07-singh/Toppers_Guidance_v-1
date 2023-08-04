@@ -45,6 +45,17 @@ import FollowMe from './Outlet_Routes/Follow_Me/Follow_Me';
 
 
 function App() {
+  let payload={
+    meetingNumber:74148118380,
+    role:0,
+    sdkKey:'J24K4OmFQpeoSlv8u1aw8w',
+    sdkSecret:'G8vsbEk4nI0GZHlOI4sX1TzrYdVsvpnE',
+    passWord:'JY68nR',
+    userName: 'Testing',
+    userEmail:'',
+    leaveUrl: 'https://localhost:3001/logged_in_profile_dashboard/live_chat'
+
+  };
   return (
 
     <BrowserRouter>
@@ -81,7 +92,7 @@ function App() {
           <Route path='/logged_in_profile_dashboard/my_notes_paid' element={<MyNotesPaid />} />
           <Route path='/logged_in_profile_dashboard/pyq_pdf' element={<PYQPDFFree />} />
           <Route path='/logged_in_profile_dashboard/blog' element={<Blog />} />
-          <Route path='/logged_in_profile_dashboard/live_chat' element={<LiveChat />} />
+          <Route path='/logged_in_profile_dashboard/live_chat' element={<LiveChat payload={payload} />} />
           <Route path='/logged_in_profile_dashboard/my_give_away_events' element={<MyGiveAwayEvents />} />
           <Route path='/logged_in_profile_dashboard/my_meetups' element={<MyMeetUps />} />
           <Route path='/logged_in_profile_dashboard/my_youtube_events' element={<MyYoutubeEvents />} />

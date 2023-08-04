@@ -1,9 +1,10 @@
 import React from 'react'
+import Accordion from '../../../components/jitendra/Accordion/Accordion';
 
 const FAQOnPostPreference = () => {
   return (
     <>
-        <h1>FAQ On Post Preference</h1>
+        <Accordion />
     </>
   )
 }

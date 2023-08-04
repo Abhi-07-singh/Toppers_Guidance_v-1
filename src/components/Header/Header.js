@@ -21,7 +21,7 @@ function Header() {
                 <div className="login_bar">
                     <Link to="/login">
                         <p className="login">Login / Signup</p>
-                    </Link>
+                    </Link>  
                 </div>
                 <div className="user_container"><img src="./images/user.png" alt="user_icon" className="user_icon"></img></div>
                 <div className="red_dot"></div>

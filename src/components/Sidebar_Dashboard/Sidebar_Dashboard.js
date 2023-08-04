@@ -60,8 +60,8 @@ function Navbar() {
           <SubMenu label="Tests" icon={<img src={test} alt='test_icon' className='icon_img'></img>}>
             <NavLink to="/logged_in_profile_dashboard/quiz_by_me"  className='Link_tag_react_router'><MenuItem>Quiz created by me <sup className='free_tag'>Free</sup></MenuItem></NavLink>   
             <NavLink to="/logged_in_profile_dashboard/tests_by_me"  className='Link_tag_react_router'><MenuItem>Tests created by me <sup className='free_tag'>Free</sup></MenuItem></NavLink>   
-            <NavLink to="/logged_in_profile_dashboard/test_series_recommen"  className='Link_tag_react_router'><MenuItem>Tests series <br />recommendation <sup className='free_tag'>Free</sup></MenuItem> </NavLink>  
-            <NavLink to="/logged_in_profile_dashboard/test_analysis "  className='Link_tag_react_router'><MenuItem>Tests analysis & <br />guidance <sup className='paid_tag'>Paid</sup></MenuItem></NavLink>   
+            <NavLink to="/logged_in_profile_dashboard/test_series_recommen"  className='Link_tag_react_router'><MenuItem>Tests series recommend-<br />ation <sup className='free_tag'>Free</sup></MenuItem> </NavLink>  
+            <NavLink to="/logged_in_profile_dashboard/test_analysis "  className='Link_tag_react_router'><MenuItem>Tests analysis & guida- <br />nce <sup className='paid_tag'>Paid</sup></MenuItem></NavLink>   
           </SubMenu>
           <SubMenu label="Ebooks/Study material" icon={<img src={ebook} alt='ebook_icon' className='icon_img'></img>}>
             <NavLink to="/logged_in_profile_dashboard/digital_books"  className='Link_tag_react_router'><MenuItem>Digital books <sup className='paid_tag'>Paid</sup></MenuItem></NavLink>   

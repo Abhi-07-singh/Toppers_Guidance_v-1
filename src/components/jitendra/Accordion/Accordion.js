@@ -4,11 +4,12 @@ import MyAccordion from './MyAccordion';
 import { questions } from './api';
 
 const Accordion = () => {
+    var heading="Frequently Asked Questions"
     return (
     <>
     <section className='main_sec'>
         <div className='faq_main'>
-            <h1>Frequently Asked Questions</h1>
+            <h1>{heading}</h1>
         {
             questions.map((curEle) => {
                 const { id } = curEle;

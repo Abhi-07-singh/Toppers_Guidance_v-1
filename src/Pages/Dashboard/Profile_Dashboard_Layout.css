@@ -6,6 +6,7 @@
 .dashboard_home_page_topper{
     display: grid;
     grid-template-columns: 2fr 8fr 40px;
+    
 }
 .outlet_section{
     margin-left: 30px;

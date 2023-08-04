@@ -9,22 +9,23 @@ const HeaderLogin = () => {
     const [loginPassword, setLoginPassword] = useState("");
     const [loginDetails, setLoginDetails] = useState("");
     const [isSubmit, setIsSubmit] = useState(false);
-    
     var localStorageData = JSON.parse(localStorage.getItem('name'));
     const submitLoginDetails = (e) => {
         e.preventDefault();
         const newLoginDetails = { Email_or_Phone: emailOrPhone, Password: loginPassword };
         setLoginDetails([...loginDetails, newLoginDetails]);
+        console.log(loginDetails);
         
-        if(emailOrPhone !== localStorageData.email && loginPassword !== localStorageData.Password ){
+        if(  loginPassword === localStorageData.password &&  emailOrPhone === localStorageData.email ){
             
-            setIsSubmit(false);
-            
-        }
-        else{
             setIsSubmit(true);
             
-        }
+        };
+        // if{
+        //     setIsSubmit(true);
+        //     window.localStorage.setItem("isLoggedIn", true);
+            
+        // }
         
         
         
@@ -33,13 +34,13 @@ const HeaderLogin = () => {
         
         
     }
-    // useEffect(() =>{
-    //     if(emailOrPhone !== localStorageData.email && loginPassword !== localStorageData.password ){
+    useEffect(() =>{
+        if(emailOrPhone === localStorageData.email && loginPassword === localStorageData.password ){
             
-    //         console.log(isSubmit);
-    //     }
+            console.log(isSubmit);
+        }
         
-    //   }, [ emailOrPhone, loginPassword, localStorageData.password, localStorageData.email]);
+      }, [ isSubmit,emailOrPhone, loginPassword]);
     
     // const initialValues={emailOrPhone:"", loginPassword:""};
     // const [formValues, setFormValues] = useState(initialValues);
@@ -73,10 +74,13 @@ const HeaderLogin = () => {
 
     // }
     
+    
     return (
         <>
+
         { isSubmit ?(<div><FirstPage /></div>):(
             <div className='login_header_container'>
+                
                 
                 <div className='login_header'>
                     <div className='login_header_logo'>
@@ -91,6 +95,7 @@ const HeaderLogin = () => {
                             </div>
                             <div className='login_header_input_password'>
                                 <input type='input' placeholder='Password' value={loginPassword} onChange={(e) => setLoginPassword(e.target.value)} />
+                                
                                 <p>Forgot Password ?</p>
                             </div>
                             <div className='login_header_submit_button'>
@@ -101,7 +106,9 @@ const HeaderLogin = () => {
                         </div>
                     </form>
                 </div>
+                
             </div>)}
+            
         </>
     )
 }

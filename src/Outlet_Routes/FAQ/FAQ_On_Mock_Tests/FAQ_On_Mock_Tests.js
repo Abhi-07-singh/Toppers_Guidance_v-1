@@ -1,9 +1,10 @@
 import React from 'react'
+import Accordion from '../../../components/jitendra/Accordion/Accordion';
 
 const FAQOnMockTests = () => {
   return (
     <>
-        <h1>FAQ On Mock Tests</h1>
+        <Accordion />
     </>
   )
 }
