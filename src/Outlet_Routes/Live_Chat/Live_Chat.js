@@ -46,7 +46,8 @@ const LiveChat = ({payload}) => {
   }, [])
   return (
     <>
-        
+      <link type='text/css' rel='stylesheet' href='https://source.zoom.us/2.14.0/css/bootstrap.css'></link>
+      <link type='text/css' rel='stylesheet' href='https://source.zoom.us/2.14.0/css/react-select.css'></link>
     </>
   )
 }

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Exam_Selection.css";
+import classes from  "./Exam_Selection.module.css";
 import { Link } from "react-router-dom";
 import examNameList from "./Exam_Selection.json";
 function ExamSelection() {
@@ -8,12 +8,12 @@ function ExamSelection() {
         setVisible(prevValue=>prevValue+5);
     }
     return (
-        <div className="exam_selection_main_div">
+        <div className={classes.exam_selection_main_div}>
             <h2>Select Your Exam :-</h2>
-            <div className="container">
+            <div className={classes.container}>
                 {examNameList.slice(0,visible).map(examName => {
                     return (
-                        <div className="items">
+                        <div className={classes.items}>
                             <Link to={examName.to} ><h3>{examName.exam}</h3></Link>
                         </div>
                     )
@@ -22,7 +22,7 @@ function ExamSelection() {
                 
 
             </div>
-            <div className="view_more_button">
+            <div className={classes.view_more_button}>
                 <button onClick={view_more_handler}>
                     View more
                 </button>

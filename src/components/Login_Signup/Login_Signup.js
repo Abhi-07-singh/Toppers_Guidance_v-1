@@ -1,5 +1,5 @@
 import React, {useEffect,useState } from 'react';
-import "./Login_Signup.css";
+import classes from  "./Login_Signup.module.css";
 import OTPVerification from './OTP_Verification';
 
 
@@ -85,38 +85,38 @@ const LoginSignup = () => {
   };
    return (
     <>
-      <div className='registration_credentials'>
-        <div className='login_vector_img'>
-          <img src='./images/login_vector.svg' alt='login_vector_img' className='login_vector_icon'></img>
+      <div className={classes.registration_credentials}>
+        <div className={classes.login_vector_img}>
+          <img src='./images/login_vector.svg' alt='login_vector_img' className={classes.login_vector_icon}></img>
         </div>
         
-        {Object.keys(formErrors).length === 0 && isSubmit ? (<div className='registration_heading'><OTPVerification /></div>):(
-        <div className='registration_form'>
-          <div className='registration_heading'><h2>Sign up / Register yourself :-</h2></div>
+        {Object.keys(formErrors).length === 0 && isSubmit ? (<div className={classes.registration_heading}><OTPVerification /></div>):(
+        <div className={classes.registration_form}>
+          <div className={classes.registration_heading}><h2>Sign up / Register yourself :-</h2></div>
 
           <form autoComplete='off' onSubmit={handleSubmit}>
 
-            <div className='resgister_input_form'>
-              <input type='text' name='firstName' placeholder='First Name' className='register_input_sections' value={formValues.firstName} onChange={handleChange} required />
+            <div className={classes.resgister_input_form}>
+              <input type='text' name='firstName' placeholder='First Name' className={classes.register_input_sections} value={formValues.firstName} onChange={handleChange} required />
             </div>
-            <div className='resgister_input_form'>
-              <input type='text' name='lastName' placeholder='Last Name' className='register_input_sections' value={formValues.lastName} onChange={handleChange} required />
+            <div className={classes.resgister_input_form}>
+              <input type='text' name='lastName' placeholder='Last Name' className={classes.register_input_sections} value={formValues.lastName} onChange={handleChange} required />
             </div>
-            <div className='resgister_input_form'>
-              <input type='email' name='email' placeholder='Email' className='register_input_sections' value={formValues.email} onChange={handleChange} required />
+            <div className={classes.resgister_input_form}>
+              <input type='email' name='email' placeholder='Email' className={classes.register_input_sections} value={formValues.email} onChange={handleChange} required />
             </div>
-            <p className='error_msg_mandatory_fields'>{ formErrors.email}</p>
+            <p className={classes.error_msg_mandatory_fields}>{ formErrors.email}</p>
 
-            <div className='resgister_input_form'>
-              <input type='password' name='password' placeholder='Password' className='register_input_sections' value={formValues.password} onChange={handleChange} required />
+            <div className={classes.resgister_input_form}>
+              <input type='password' name='password' placeholder='Password' className={classes.register_input_sections} value={formValues.password} onChange={handleChange} required />
             </div>
-            <p className='error_msg_mandatory_fields'>{ formErrors.password}</p>
+            <p className={classes.error_msg_mandatory_fields}>{ formErrors.password}</p>
 
-            <div className='resgister_input_form'>
-              <input type='password' name='confirmPassword' placeholder='Confirm Password' className='register_input_sections' value={formValues.confirmPassword} onChange={handleChange} required />
+            <div className={classes.resgister_input_form}>
+              <input type='password' name='confirmPassword' placeholder='Confirm Password' className={classes.register_input_sections} value={formValues.confirmPassword} onChange={handleChange} required />
             </div>
-            <p className='error_msg_mandatory_fields'>{ formErrors.confirmPassword}</p>
-            <div className='create_acc_btn'>
+            <p className={classes.error_msg_mandatory_fields}>{ formErrors.confirmPassword}</p>
+            <div className={classes.create_acc_btn}>
               <button type='submit'>Create Account</button>
             </div>
           </form>

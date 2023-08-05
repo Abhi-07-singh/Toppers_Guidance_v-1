@@ -1,5 +1,5 @@
 import React from "react";
-import "./AboutUs.css";
+import classes from  "./AboutUs.module.css";
 import { FaCheckCircle, FaUserCircle} from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -7,8 +7,8 @@ const AboutUs = () => {
   return (
     <>
     
-      <div className="AboutUsTotal">
-        <div className="AboutUs">
+      <div className={classes.AboutUsTotal}>
+        <div className={classes.AboutUs}>
           <h1>About me :-</h1>
           <p>
           In SSC CGL final result 2022, I Mohit Choudhary who hails from Kishangarh tehsil, Rajasthan 
@@ -24,23 +24,23 @@ const AboutUs = () => {
 
           </p>
         </div>
-        <div className="profile">
-        <div className="profile_details">
-          <div className="img_pro">
+        <div className={classes.profile}>
+        <div className={classes.profile_details}>
+          <div className={classes.img_pro}>
             {/* <img src="./images/trande.png" alt="profile" /> */}
             <FaUserCircle size="100px" />
           </div>
-          <div className="pro_item">
-            <h2>Mohit Choudhary <FaCheckCircle className="verify_icon"/> </h2>
+          <div className={classes.pro_item}>
+            <h2>Mohit Choudhary <FaCheckCircle className={classes.verify_icon}/> </h2>
             <h4>AIR :- 01</h4>
             <h4>Attempt :- 2nd</h4>
             <h4>Post :- Income-Tax Officer</h4>
             <p>(Finance Ministry)</p>
           </div>
         </div>
-          <div className="pro_btn">
-           <Link to="/login"> <button type="button" className="follow_btn">Follow me</button></Link>
-            <button type="button" className="Dashboard" disabled >Open Dashboard</button>
+          <div className={classes.pro_btn}>
+           <Link to="/login"> <button type="button" className={classes.follow_btn}>Follow me</button></Link>
+            <button type="button" className={classes.Dashboard} disabled >Open Dashboard</button>
           </div>
         </div>
       </div>

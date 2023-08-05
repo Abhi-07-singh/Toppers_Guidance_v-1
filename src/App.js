@@ -37,7 +37,6 @@ import AskMe from './Outlet_Routes/Ask_Me/Ask_Me';
 import FAQOnBooks from './Outlet_Routes/FAQ/FAQ_On_Books/FAQ_On_Books';
 import FAQOnMockTests from './Outlet_Routes/FAQ/FAQ_On_Mock_Tests/FAQ_On_Mock_Tests';
 import FAQOnPostPreference from './Outlet_Routes/FAQ/FAQ_On_Post_Preference/FAQ_On_Post_Preference';
-import Vacancies from './Outlet_Routes/News_Update/Vacancies/Vacancies';
 import Notification from './Outlet_Routes/News_Update/Notification/Notification';
 import ExamAnalysisByMe from './Outlet_Routes/Analysis/Exam_Analysis_By_Me/Exam_Analysis_By_Me';
 import ExamAnalysisByPinnacle from './Outlet_Routes/Analysis/Exam_Analysis_By_Pinnacle/Exam_Analysis_By_Pinnacle';
@@ -46,14 +45,14 @@ import FollowMe from './Outlet_Routes/Follow_Me/Follow_Me';
 
 function App() {
   let payload={
-    meetingNumber:74148118380,
+    meetingNumber:5021457450,
     role:0,
     sdkKey:'J24K4OmFQpeoSlv8u1aw8w',
-    sdkSecret:'G8vsbEk4nI0GZHlOI4sX1TzrYdVsvpnE',
-    passWord:'JY68nR',
+    sdkSecret:'0CqzZnAj0bEJAKFH4PiA2aWdmT9NUdhl',
+    passWord:'Abhi07',
     userName: 'Testing',
     userEmail:'',
-    leaveUrl: 'https://localhost:3001/logged_in_profile_dashboard/live_chat'
+    leaveUrl: 'https://localhost:3000/logged_in_profile_dashboard'
 
   };
   return (
@@ -100,7 +99,6 @@ function App() {
           <Route path='/logged_in_profile_dashboard/faq_on_books' element={<FAQOnBooks />} />
           <Route path='/logged_in_profile_dashboard/faq_on_mock_tests' element={<FAQOnMockTests />} />
           <Route path='/logged_in_profile_dashboard/faq_on_post_preference' element={<FAQOnPostPreference />} />
-          <Route path='/logged_in_profile_dashboard/vacancies' element={<Vacancies />} />
           <Route path='/logged_in_profile_dashboard/notifications' element={<Notification />} />
           <Route path='/logged_in_profile_dashboard/exam_analysis_by_me' element={<ExamAnalysisByMe />} />
           <Route path='/logged_in_profile_dashboard/exam_analysis_by_pinnacle' element={<ExamAnalysisByPinnacle />} />

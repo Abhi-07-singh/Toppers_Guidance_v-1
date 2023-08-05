@@ -1,14 +1,14 @@
 import React from 'react';
-import "./OTP_Verification.css";
+import classes from  "./OTP_Verification.module.css";
 
 const OTPVerification = () => {
     return (
         <>
-            <div className='OTP_verification_main_div'>
+            <div className={classes.OTP_verification_main_div}>
                 <div>
                     <h1>OTP verification</h1>
                 </div>
-                <div className='input_otp_section'>
+                <div className={classes.input_otp_section}>
                     <div>
                         <input type='text' placeholder='enter your 10 digit mobile number'></input>
                     </div>

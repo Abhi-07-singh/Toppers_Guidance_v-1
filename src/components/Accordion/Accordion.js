@@ -1,13 +1,13 @@
 import React from 'react';
-import "./Accordion.css";
+import classes from "./Accordion.module.css";
 import MyAccordion from './MyAccordion';
 import { questions } from './api';
 
 const Accordion = () => {
     return (
     <>
-    <section className='main_sec'>
-        <div className='faq_main'>
+    <section className={classes.main_sec}>
+        <div className={classes.faq_main}>
             <h1>Frequently Asked Questions</h1>
         {
             questions.map((curEle) => {

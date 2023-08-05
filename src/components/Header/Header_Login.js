@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaHome } from 'react-icons/fa';
-import "./Header_Login.css";
+import classes from "./Header_Login.module.css";
 import FirstPage from '../../Pages/First_page/First_page';
 
 const HeaderLogin = () => {
@@ -79,30 +79,30 @@ const HeaderLogin = () => {
         <>
 
         { isSubmit ?(<div><FirstPage /></div>):(
-            <div className='login_header_container'>
+            <div className={classes.login_header_container}>
                 
                 
-                <div className='login_header'>
-                    <div className='login_header_logo'>
+                <div className={classes.login_header}>
+                    <div className={classes.login_header_logo}>
                         <img src='./images/pinnacle (2).png' alt='pinnacle_logo_img'></img>
                     </div>
                     
                     <form autoComplete='off' onSubmit={submitLoginDetails}>
-                        <div className='login_header_credential_input'>
+                        <div className={classes.login_header_credential_input}>
 
-                            <div className='login_header_input_email'>
+                            <div className={classes.login_header_input_email}>
                                 <input type='input' placeholder='Email id or Phone' value={emailOrPhone} onChange={(e) => setEmailOrPhone(e.target.value)} />
                             </div>
-                            <div className='login_header_input_password'>
+                            <div className={classes.login_header_input_password}>
                                 <input type='input' placeholder='Password' value={loginPassword} onChange={(e) => setLoginPassword(e.target.value)} />
                                 
                                 <p>Forgot Password ?</p>
                             </div>
-                            <div className='login_header_submit_button'>
+                            <div className={classes.login_header_submit_button}>
                                 <button type='submit'>Login</button>
                             </div>
 
-                            <div className='home_icon_button_login_header'><Link to="/"><FaHome size="35px" className='faHomeicon' /></Link></div>
+                            <div className={classes.home_icon_button_login_header}><Link to="/"><FaHome size="35px" className={classes.faHomeicon} /></Link></div>
                         </div>
                     </form>
                 </div>

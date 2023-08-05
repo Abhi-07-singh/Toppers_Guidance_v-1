@@ -1,10 +1,10 @@
 import React from 'react';
-import "./News_Articles.css";
+import classes from  "./News_Articles.module.css";
 
 const NewsArticles = () => {
   return (
     <>
-        <div className='news_section'>
+        <div className={classes.news_section}>
             <div>
                 <h3>Latest News</h3>
             </div>
@@ -20,7 +20,7 @@ const NewsArticles = () => {
                 <a href='#'><p>SSC Steno. Notification</p></a>
             </div>
         </div>
-        <div className='articles_section'>
+        <div className={classes.articles_section}>
             <div>
                 <h3>Related Articles</h3>
             </div>

@@ -1,17 +1,17 @@
 import React from "react";
-import "./ExamDetails.css";
+import classes from  "./ExamDetails.module.css";
 // import {Link} from 'react-router-dom';
 
 const ExamDetails = () => {
   return (
     <>
-      <div className="exam_details">
-          <div className="main_page">
+      <div className={classes.exam_details}>
+          <div className={classes.main_page}>
               <h1>Know your Exam (all about SSC CGL) :-</h1>
           </div>
-          <div className="notice_page">
+          <div className={classes.notice_page}>
            {/* <Link to="/main_dashboard">  */}
-           <div className="exam_notice">
+           <div className={classes.exam_notice}>
             <p>#. ssc respective year exam Summary</p>
             <p>#. ssc exam date out</p>
             <p>#. ssc exam admit cards </p>
@@ -26,7 +26,7 @@ const ExamDetails = () => {
             </div> 
             {/* </Link>  */}
            {/* <Link to ="/main_dashboard">  */}
-           <div className="exam_notice">
+           <div className={classes.exam_notice}>
             <p>#. ssc respective year exam Summary</p>
             <p>#. ssc respective year exam Summary</p>
             <p>#. ssc respective year exam Summary</p>
